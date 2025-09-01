@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@keyframes brands {
+    0%{
+        transform:  translateX(0%);
+    }
+    50%{
+        transform: translateX(-50%);
+    }
+}
+
+#Animate{
+    animation: brands 20s linear infinite;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+
